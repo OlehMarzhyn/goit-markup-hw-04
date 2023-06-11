@@ -221,7 +221,7 @@ ul {
   display: block;
   margin: 0 auto;
   margin-top: 48px;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-team-btn:hover {
   background-color: #404bbf;
@@ -281,6 +281,7 @@ ul {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  justify-content: center;
 }
 
 .section-about-name {
@@ -395,15 +396,9 @@ ul {
 .soc-mer-list {
   width: 40px;
   height: 40px;
-
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.soc-mer-list:hover,
-.soc-mer-list:focus {
+.soc-mer-ikon:hover,
+.soc-mer-ikon:focus {
   background-color: #404bbf;
 }
 .soc-mer-svg {
@@ -412,6 +407,11 @@ ul {
 .soc-mer-ikon {
   width: 100%;
   height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .container-section-list {
   padding: 32px 0px;
@@ -476,10 +476,11 @@ ul {
   padding: 120px 0;
 }
 .section-five-company {
-  font-style: 36px;
+  font-size: 36px;
   line-height: 1.11;
   color: var(--header-color);
   margin-bottom: 72px;
+  text-align: center;
 }
 .section-five-item {
   display: flex;
@@ -561,28 +562,26 @@ ul {
   margin-bottom: 16px;
 }
 .footer-soc-item {
-display: flex;
-gap: 16px;
-
+  display: flex;
+  gap: 16px;
 }
 .footer-soc-mer-list {
   width: 40px;
   height: 40px;
-
 }
 .footer-soc-mer {
-width: 100%;
-height: 100%;
-background-color: var(--footer-logo);
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--footer-logo);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer-soc-mer:hover,
 .footer-soc-mer:focus {
   background-color: #31d0aa;
 }
-.footer-soc-svg{
+.footer-soc-svg {
   fill: var(--footer-text);
 }
