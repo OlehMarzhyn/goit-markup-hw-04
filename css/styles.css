@@ -549,6 +549,9 @@ ul {
   color: var(--footer-text);
   max-width: 264px;
 }
+.footer-soc-div {
+  margin-right: 120px;
+}
 .footer-soc {
   font-weight: 500;
   font-style: 16px;
@@ -560,6 +563,7 @@ ul {
 .footer-soc-item {
 display: flex;
 gap: 16px;
+
 }
 .footer-soc-mer-list {
   width: 40px;
