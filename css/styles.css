@@ -556,7 +556,7 @@ ul {
   display: flex;
 }
 .footer-container {
-  display: flex;
+  /* display: flex; */
   align-items: baseline;
   margin-right: 120px;
 }
@@ -589,7 +589,7 @@ ul {
   margin-right: 120px;
 }
 .footer-soc-div {
-  margin-right: 120px;
+  /* margin-right: 120px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
