@@ -556,9 +556,9 @@ ul {
   display: flex;
 }
 .footer-container {
-  /* display: flex; */
+  display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -586,6 +586,9 @@ ul {
   letter-spacing: 0.02em;
   color: var(--footer-text);
   max-width: 264px;
+  margin-right: 120px;
+}
+.footer-div {
   margin-right: 120px;
 }
 .footer-soc-div {
