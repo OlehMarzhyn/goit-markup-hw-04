@@ -451,15 +451,15 @@ ul {
   transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
-.table:hover,
+/* .table:hover,
 .table:focus {
       transform: translateY(0%);
 
-}
+} */
 
 .port-images:hover,
 .port-images:focus {
-    /* transform: translateY(0%); */
+    transform: translateY(0%);
 
 }
 .port-item {
@@ -694,7 +694,7 @@ ul {
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
-  /* fill: #ffffff; */
+  fill: #ffffff;
 }
 .modal-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
