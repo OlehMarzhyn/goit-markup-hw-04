@@ -90,8 +90,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: #404bbf; */
-
   gap: 40px;
 }
 .header-list:hover {
@@ -111,10 +109,13 @@ ul {
   background-color: #404bbf;
   border-radius: 2px;
 }
-
-.header-list {
+.current {
   position: relative;
   color: #404bbf;
+}
+
+.header-list {
+  color: var(--header-color);
   padding-top: 24px;
   padding-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
